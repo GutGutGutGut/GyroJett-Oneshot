@@ -401,7 +401,7 @@ Contributions, ideas, bug reports and security reviews are welcome.
 To contribute:
 
 ```bash
-git clone https://github.com/GutGutGutGut/GyroJett-OneShot2.git
+git clone https://github.com/GutGutGutGut/GyroJett-OneShot.git
 cd GyroJett-OneShot2
 ```
 
