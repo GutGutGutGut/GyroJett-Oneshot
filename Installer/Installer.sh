@@ -11,9 +11,9 @@ INSTALL_PATH="/usr/local/bin/gyrojett-oneshot2"
 TORRC="/etc/tor/torrc"
 TOR_SERVICE="tor@default.service"
 
-echo "#####################################"
-echo "#    GyroJett-OneShot2 Installer    #"
-echo "#####################################"
+echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+echo "┃    GyroJett-OneShot2 Installer    ┃"
+echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 echo
 
 # --------------------------------------------------
@@ -295,9 +295,9 @@ sudo install \
     "$INSTALL_PATH"
 
 echo
-echo "#######################################"
-echo "#     GyroJett-OneShot2 installed!   #"
-echo "#######################################"
+echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+echo "┃    GyroJett-OneShot2 Installed!    ┃"
+echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 echo
 
 echo "Binary:"

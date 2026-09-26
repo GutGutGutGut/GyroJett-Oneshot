@@ -12,12 +12,22 @@
 #include <string.h>
 #include <unistd.h>
 
+#ifdef GYROJET_DEBUG
+
 #define PROTO_DEBUG(...) \
     do { \
         fprintf(stderr, "[PROTO DEBUG] "); \
         fprintf(stderr, __VA_ARGS__); \
         fprintf(stderr, "\n"); \
     } while (0)
+
+#else
+
+#define PROTO_DEBUG(...) \
+    do { \
+    } while (0)
+
+#endif
 
 static void gyrojet_protocol_debug_hex(
     const char *label,

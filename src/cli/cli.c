@@ -33,16 +33,16 @@ static int read_choice(void)
 int gyrojet_cli_run(void)
 {
     for (;;) {
-        printf("###############################\n");
-        printf("#     GyroJett-OneShot2       #\n");
-        printf("###############################\n");
-        printf("#                             #\n");
-        printf("# O que você deseja fazer?    #\n");
-        printf("#                             #\n");
-        printf("#  [1] Criar uma sessão       #\n");
-        printf("#  [2] Conectar a uma sessão  #\n");
-        printf("#  [3] Sair                   #\n");
-        printf("###############################\n");
+        printf("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n");
+        printf("┃     GyroJett-OneShot2       ┃\n");
+        printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
+        printf("┃                             ┃\n");
+        printf("┃ O que você deseja fazer?    ┃\n");
+        printf("┃                             ┃\n");
+        printf("┃  [1] Criar uma sessão       ┃\n");
+        printf("┃  [2] Conectar a uma sessão  ┃\n");
+        printf("┃  [3] Sair                   ┃\n");
+        printf("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n");
 
         int choice = read_choice();
 
@@ -86,7 +86,7 @@ int gyrojet_cli_run(void)
 
                 printf("\n");
                 printf("Criar uma sessão\n");
-                printf("#########################\n");
+                printf("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
                 printf("\n");
 
                 printf("Iniciando servidor...\n");
@@ -217,18 +217,10 @@ int gyrojet_cli_run(void)
                 }
 
                 printf("\n");
-                printf(
-                    "##########################################\n"
-                );
-                printf(
-                    "#           SESSÃO CRIADA                #\n"
-                );
-                printf(
-                    "##########################################\n"
-                );
-                printf(
-                    "------------------------------------------\n"
-                );
+                printf("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n");
+                printf("┃           SESSÃO CRIADA                ┃\n");
+                printf("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n");
+                printf("══════════════════════════════════════════\n");
 
                 printf("Convite da sessão:\n");
                 printf("%s\n", invite);
@@ -325,7 +317,7 @@ int gyrojet_cli_run(void)
 
                 printf("\n");
                 printf("Conectar a uma sessão\n");
-                printf("---------------------\n");
+                printf("═════════════════════\n");
                 printf("\n");
 
                 printf(

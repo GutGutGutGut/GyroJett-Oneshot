@@ -113,14 +113,14 @@ if (gyrojet_session_authenticate(
 }
 
 printf("\n");
-printf("##########################################\n");
-printf("#         GyroJett-OneShot2 Chat         #\n");
-printf("##########################################\n");
-printf("#                                        #\n");
-printf("# Conversa iniciada.                     #\n");
-printf("# Digite uma mensagem e pressione Enter. #\n");
-printf("# Ctrl+D encerra a conversa.             #\n");
-printf("##########################################\n");
+printf("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n");
+printf("┃         GyroJett-OneShot2 Chat         ┃\n");
+printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
+printf("┃                                        ┃\n");
+printf("┃ Conversa iniciada.                     ┃\n");
+printf("┃ Digite uma mensagem e pressione Enter. ┃\n");
+printf("┃ Ctrl+D encerra a conversa.             ┃\n");
+printf("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n");
 
 for (;;) {
     fd_set read_fds;
